@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .tit-pag{
+    font-size: 26px;
+    color: #6200ff;
+    font-weight: 500;
+}
+header img{
+    height: 50px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 430px;
+    margin: 30px auto;
+    height: 100%;
+    
+    background-size: cover;
+    background-position: center;
+}
+section{
+    background-image: url(imagens/bahia.jpg);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.904);
+    font-family: sans-serif;
+    padding: 0px 10px 16px 10px;
+    margin: 20px 0;
+}
+.tit-form{
+    margin-top: 0;
+    background-color: #6200ff;
+    color: white;
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+input, select{
+    height: 32px;
+    margin: 16px 0 16px 0;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.checks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+label{
+    margin: 0 5px;
+}
+button {
+    background: #6200ff;
+    border: none;
+    height: 32px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 16px 0 0 0;
+}
+
+.cidades .img{
+    height: 300px;
+    margin: 10px;
+}
+.cidades .img img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
