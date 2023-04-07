@@ -85,9 +85,21 @@ button {
 .cidades .img{
     height: 300px;
     margin: 10px;
+    position: relative;
 }
 .cidades .img img{
    height: 100%;
    width: 100%;
     background-size: cover;
+}
+.legenda{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    box-sizing: border-box;
+    padding: 3px;
 }
