@@ -115,19 +115,17 @@ button {
     .cidades{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
     .img{
-        width: 180px;
+        width: 200px; 
     }
     .calc .img{
         margin: 2px;
     }
     .calc, .calc1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    
         
     }
     #rio{
