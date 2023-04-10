@@ -26,20 +26,18 @@ header img{
     flex-direction: column;
     width: 100%;
     max-width: 430px;
-    margin: 30px auto;
-    height: 100%;
-    
+    margin: 30px auto;    
+
+}
+.fundo-form{
+    background-image: url(imagens/bahia.jpg);
     background-size: cover;
     background-position: center;
-}
-section{
-    background-image: url(imagens/bahia.jpg);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.904);
     font-family: sans-serif;
     margin: 20px 0;
@@ -58,6 +56,7 @@ form {
 input, select{
     height: 32px;
     margin: 16px 16px ;
+    border-radius: 5px;
 }
 .radio{
     display: flex;
@@ -70,7 +69,11 @@ input, select{
     align-items: center;
 }
 label{
-    margin: 0 5px;
+    margin: 0 10px;
+    font-weight: 500;
+}
+form h2{
+    padding: 10px;
 }
 button {
     background: #5d15d1;
@@ -102,4 +105,36 @@ button {
     background-color: rgba(0, 0, 0, 0.377);
     box-sizing: border-box;
     padding: 3px;
+}
+
+@media screen and (min-width: 558px) {
+    form{
+        width: 500px;
+    }
+
+    .cidades{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 180px;
+    }
+    .calc .img{
+        margin: 2px;
+    }
+    .calc, .calc1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    #rio{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
 }
