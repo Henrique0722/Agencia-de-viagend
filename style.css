@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: rgb(71, 71, 71);
 }
 header{
     display: flex;
@@ -85,12 +86,10 @@ button {
     margin: 16px 0 0 0;
 }
 
-.cidades .img{
-    height: 300px;
-    margin: 10px;
+.container div{
     position: relative;
 }
-.cidades .img img{
+.grid div img{
    height: 100%;
    width: 100%;
     background-size: cover;
@@ -106,33 +105,46 @@ button {
     box-sizing: border-box;
     padding: 3px;
 }
+.destaque{
+   height: 100%;
+   width: 100%;
+   background-size: cover
+}
 
 @media screen and (min-width: 558px) {
     form{
         width: 500px;
     }
 
-    .cidades{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .img{
-        width: 200px; 
-    }
-    .calc .img{
-        margin: 2px;
-    }
-    .calc, .calc1{
     
-        
-    }
-    #rio{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
+.container img {
+    max-width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 100%;
+    gap: 12px;
+  }
+  
+  .destaque {
+    display: flex;
+    flex: 1;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 12px;
+  }
+  
+  .grid img {
+    width: 100%;
+    
+  }
 
-    }
+  .grid div {
+    width: calc(50% - 12px);
+  }
 }
