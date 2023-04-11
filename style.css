@@ -78,11 +78,16 @@ form h2{
 button {
     background: #5d15d1;
     border: none;
-    height: 32px;
+    height: 40px;
     font-family: sans-serif;
     font-size: 16px;
     color: #fff;
     margin: 16px 0 0 0;
+}
+button:hover{
+    transition: .4s;
+    color: black;
+    background-color: gray;
 }
 .container-data{
     display: flex;
