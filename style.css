@@ -6,9 +6,9 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 100px;
 }
 .tit-pag{
     font-size: 25px;
@@ -26,7 +26,7 @@ header img{
     flex-direction: column;
     width: 100%;
     max-width: 430px;
-    margin: 30px auto;    
+    margin: 5px auto;    
 
 }
 .fundo-form{
@@ -84,7 +84,14 @@ button {
     color: #fff;
     margin: 16px 0 0 0;
 }
+.ofertas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.ofertas-p{
 
+}
 .container div{
     position: relative;
 }
@@ -92,6 +99,11 @@ button {
    height: 100%;
    width: 100%;
     background-size: cover;
+}
+.container div img:hover{
+    transition: .3s;
+    opacity: 80%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.682);
 }
 .legenda{
     position: absolute;
@@ -104,7 +116,7 @@ button {
     box-sizing: border-box;
     padding: 3px;
 }
-.destaque{
+.destaque img{
    height: 100%;
    width: 100%;
    background-size: cover
@@ -124,6 +136,7 @@ button {
 .img-natureza{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.567);
     margin: 10px;
+    height: 100%;
 }
 .img-natureza p, h3{
     padding: 10px;
@@ -140,7 +153,7 @@ button {
 }
 @media screen and (min-width: 558px) {
     form{
-        width: 500px;
+       width: 500px;
     }
 
     
