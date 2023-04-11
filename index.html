@@ -24,14 +24,23 @@
                 <p class="tit-form">Solicite um orçamento</p>
                 <h2>Informe seus Dados</h2>
                 <label for="">Nome:</label>
-                <input type="text" name="nome" required>
+                <input type="text" name="nome" required placeholder="nome completo">
                 <label for="">Email:</label>
-                <input type="email" name="email" required>
-                
-                    <label for="">Data da ida</label>
-                    <input type="date" name="data" required>
-                    <label for="">Data da volta</label>
-                    <input type="date" name="data" required>
+                <input type="email" name="email" required placeholder="email@.com">
+                <label for="">Celular</label>
+                <input type="tel" name="tel" required placeholder="(XX)XXXX-XXXX">
+                <div class="container-data">
+                    
+                        <div class="data">
+                            <label for="">Data da ida</label>
+                            <input type="date" name="data"  required>
+                        </div>
+                            <div class="data">
+                                <label for="">Data da volta</label>
+                                <input type="date" name="data" required>
+                            </div>
+                </div>
+                    
                 
                 <label for="">Origem</label>
                 <select name="estado" required>
